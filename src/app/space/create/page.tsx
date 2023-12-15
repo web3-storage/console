@@ -1,6 +1,6 @@
 'use client'
 
-import { SpaceCreatorForm } from '@/components/SpaceCreator'
+import { SpaceCreatorWizard } from '@/components/SpaceCreator'
 import { SpacesNav } from '../layout'
 import { H2 } from '@/components/Text'
 
@@ -10,7 +10,7 @@ export default function CreateSpacePage (): JSX.Element {
       <SpacesNav />
       <H2>Create a new Space</H2>
       <div className='max-w-xl'>
-        <SpaceCreatorForm />
+        <SpaceCreatorWizard />
       </div>
       <div className='mt-12 max-w-xl text-sm leading-6'>
         <H2>Explain</H2>

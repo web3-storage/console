@@ -1,7 +1,7 @@
 'use client'
 
 import { useW3 } from '@w3ui/react'
-import { SpaceCreatorForm } from './SpaceCreator';
+import { SpaceCreatorWizard } from './SpaceCreator';
 import { Logo } from '@/brand';
 
 export function SpaceEnsurer ({
@@ -26,7 +26,7 @@ export function SpaceEnsurer ({
         <p className='my-2'>
           Give it a name and hit create!
         </p>
-        <SpaceCreatorForm className='mt-4' />
+        <SpaceCreatorWizard className='mt-4' />
       </div>
     </div>
   );
